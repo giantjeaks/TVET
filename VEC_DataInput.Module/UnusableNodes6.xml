@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="MajorToOpen_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="MajorToOpen">
+              <LayoutGroup Id="MajorToOpen_col1">
+                <LayoutItem Id="IndustryCategoryID" RelativeSize="5.1502145922746783" />
+                <LayoutItem Id="IndustryTypeID" RelativeSize="5.1502145922746783" />
+              </LayoutGroup>
+              <LayoutGroup Id="MajorToOpen_col2">
+                <LayoutItem Id="degreeLevelId" RelativeSize="6.866952789699571" />
+                <LayoutItem Id="subjectTypeId" RelativeSize="5.1502145922746783" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Navigation_Setting">
+        <Items Id="Items">
+          <Item Id="mas_ResType_ListView" ViewId="mas_ResType_ListView" />
+          <Item Id="mas_Res_ListView" ViewId="mas_Res_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

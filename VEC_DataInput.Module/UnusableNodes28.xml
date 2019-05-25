@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="GetSupportResource_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="GetSupportResource" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="GetSupportResource_col1" RelativeSize="49.933774834437088">
+                <LayoutItem Id="Institution" RelativeSize="4.3399638336347195" />
+              </LayoutGroup>
+              <LayoutGroup Id="GetSupportResource_col2" RelativeSize="50.066225165562912">
+                <LayoutItem Id="OrganizationType" RelativeSize="5.786618444846293" />
+                <LayoutItem Id="Value" RelativeSize="4.3399638336347195" />
+                <LayoutItem Id="Unit" RelativeSize="89.87341772151899" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PorfomanceTesting_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PorfomanceTesting">
+              <LayoutGroup Id="PorfomanceTesting_col1">
+                <LayoutItem Id="EducationYear" ViewItem="EducationYear" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PromoteWork_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PromoteWork">
+              <LayoutGroup Id="PromoteWork_col1">
+                <LayoutItem Id="EducationYear" ViewItem="EducationYear" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Group_PromoteResource">
+        <Items Id="Items">
+          <Item Id="GetSupportResource_ListView" ViewId="GetSupportResource_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Navigation_Setting">
+        <Items Id="Items">
+          <Item Id="mas_ResType_ListView" ViewId="mas_ResType_ListView" />
+          <Item Id="mas_Res_ListView" ViewId="mas_Res_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Group_Research">
+        <Items Id="Items">
+          <Item Id="ResearchAndInnovationAcademic_ListView" Index="3" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="GetSupportResource_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

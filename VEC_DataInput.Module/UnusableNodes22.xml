@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="ResourceUses_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="ResourceUses">
+              <LayoutGroup Id="ResourceUses_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="5.5459272097053729" Index="0" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Coordinate_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Coordinate">
+              <LayoutGroup Id="Coordinate_col1">
+                <LayoutItem Id="year" RelativeSize="5.786618444846293" />
+                <LayoutItem Id="ActivityName" RelativeSize="4.3399638336347195" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="EEC_Indus4TeacherReg_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="EEC_Indus4TeacherReg">
+              <LayoutGroup Id="EEC_Indus4TeacherReg_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="5.6838365896980463" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Evaluate_Institution_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Evaluate_Institution">
+              <LayoutGroup Id="Evaluate_Institution_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="5.6838365896980463" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ExtendSkill_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="ExtendSkill">
+              <LayoutGroup Id="ExtendSkill_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="7.0175438596491224" Index="0" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="GetSupportResource_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="GetSupportResource">
+              <LayoutGroup Id="GetSupportResource_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="5.786618444846293" />
+                <LayoutItem Id="ResourceGroup" RelativeSize="4.3399638336347195" />
+                <LayoutItem Id="Details" RelativeSize="85.533453887884264" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Innovation_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Innovation">
+              <LayoutGroup Id="Innovation_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="18.07909604519774" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="MajorToOpen_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="majorId" View="mas_major_DetailView" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="MajorToOpen">
+              <LayoutGroup Id="MajorToOpen_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="7.0175438596491224" />
+              </LayoutGroup>
+              <LayoutGroup Id="MajorToOpen_col2">
+                <LayoutItem Id="majorId" RelativeSize="5.2631578947368425" Index="1" />
+                <LayoutItem Id="minorId" RelativeSize="5.2631578947368425" Index="2" />
+                <LayoutItem Id="NewMajorStatus" RelativeSize="66.666666666666671" Index="6" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PorfomanceTesting_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PorfomanceTesting">
+              <LayoutGroup Id="PorfomanceTesting_col1">
+                <LayoutItem Id="EducationYear" ViewItem="EducationYear" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PromoteInnvtEnt_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PromoteInnvtEnt">
+              <LayoutGroup Id="PromoteInnvtEnt_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="5.786618444846293" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PromoteWork_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PromoteWork">
+              <LayoutGroup Id="PromoteWork_col1">
+                <LayoutItem Id="degreeLevelId" RelativeSize="77.816291161178512" Index="5" Removed="True" />
+                <LayoutItem Id="EducationYear" ViewItem="EducationYear" />
+              </LayoutGroup>
+              <LayoutGroup Id="PromoteWork_col2">
+                <LayoutItem Id="EducationYear" RelativeSize="4.2628774422735347" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Navigation_Setting">
+        <Items Id="Items">
+          <Item Id="mas_ResType_ListView" ViewId="mas_ResType_ListView" />
+          <Item Id="mas_Res_ListView" ViewId="mas_Res_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

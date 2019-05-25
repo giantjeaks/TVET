@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Navigation_Setting">
+        <Items Id="Items">
+          <Item Id="mas_ResType_ListView" ViewId="mas_ResType_ListView" />
+          <Item Id="mas_Res_ListView" ViewId="mas_Res_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views Id="Views">
+    <DetailView Id="PorfomanceTesting_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PorfomanceTesting">
+              <LayoutGroup Id="PorfomanceTesting_col1">
+                <LayoutItem Id="major" RelativeSize="5.1502145922746783" Index="2" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

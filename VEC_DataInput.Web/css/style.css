@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400');
+@import url('https://fonts.googleapis.com/css?family=Prompt:300,400');
+html, body {
+    background: #1f3c66 url(../Images/industry-bg.jpg) no-repeat fixed bottom !important;
+    color: #212121;
+}
+.VerticalTemplate, .PageContent, .dialog.PopupNewStyle {
+    /*background: #b43351 url(../Images/bg-gradient.png) repeat-x left -200px !important;*/
+    /*background: #03357A url(../Images/blue-gradient-background.png) repeat-x fixed !important;*/
+    background: #03357A url(../Images/blue-background-023.jpg) repeat-x fixed !important;
+}
+
+.dxtvControl_XafTheme
+{
+   border:#936fa4;
+}
+
+.dxgvHeader_XafTheme {
+    /*background: #6A487A none repeat scroll 0 0;*/
+    font-size: 1.2em;
+}
+    .dxgvHeader_XafTheme, .dxgvHeader_XafTheme table {
+        color: #4F4F4F;
+    }
+
+.xafNav .dxnb-content {
+    /*background-color: #e5e1ee;*/
+}
+.xafNav .dxnbLite_XafTheme {
+    border-bottom: 1px solid #936FA4 !important;
+    border-left: 1px solid #936FA4 !important;
+    border-right: 1px solid #936FA4 !important;
+}
+
+.dxpLite_XafTheme .dxp-num.dxp-current {
+    /*background-color: #084875;*/
+    border-radius: 3px;
+    color: white;
+}
+.dxtv-textConCell
+{
+/*color:#220231*/
+}
+
+.xafNav .dxtv-ndSel {
+    /*background-color: #fe8d94;*/
+    border-radius: 3px;
+  color: #220231;
+}
+.xafNav .dxtv-ndHov {
+    /*background-color: #f16988;*/
+    border-radius: 3px;
+    color: #220231;
+}
+
+.dxnbLite_XafTheme .dxnb-header, .dxnbLite_XafTheme .dxnb-headerCollapsed {
+    background-color: #03357A;
+    /*border: 1px solid #ccc;*/
+    color: #fff;
+    font-size: 1.2em;
+    padding: 9px 4px 10px 24px;
+    white-space: nowrap;
+}
+.dxnbLite_XafTheme .dxnb-item, .dxnbLite_XafTheme .dxnb-large, .dxnbLite_XafTheme .dxnb-bullet {
+    /*background-color: #e5e1ee;*/
+    /*border-bottom: 1px solid #e5e5e5;*/
+    clear: both;
+    cursor: default;
+    overflow: hidden;
+}
+.xafNav .dxnbLite_XafTheme .dxnb-itemSelected, .xafNav .dxnbLite_XafTheme .dxnb-largeSelected{
+    /*background-color:  #fe8d94;*/
+    border-radius: 3px;
+    color: #220231;
+}
+.xafNav .dxnbLite_XafTheme .dxnb-headerHover, .xafNav .dxnbLite_XafTheme .dxnb-headerCollapsedHover {
+    /*background-color: #220231;*/
+}
+.dxnb-header .FirstHeader, .xafNav .dxnbLite_XafTheme .dxnb-headerHover, .dxnb-headerCollapsed {
+    background-color: #03357A !important;
+}
+
+.xafNav .dxnbLite_XafTheme .dxnb-itemHover {
+     /*background-color: #f16988;*/
+    border-radius: 3px;
+    color: #220231;
+}
+
+.darkGray {
+    background-color: #073269;
+    border-bottom: solid 1px #5b8dce
+}
+
+.dxmLite_XafTheme .menuButtons.menuButtons_XafTheme .dxm-item
+{
+    border:0
+}
+    .dxmLite_XafTheme .menuButtons.menuButtons_XafTheme .dxm-item a.dx, .dxmLite_XafTheme .menuLinks.menuLinks_XafTheme .dxm-item a.dx {
+        color: #0066AE;
+        /*font-family:'Promt','Kanit','sans-serif' !important;*/
+    }
+#Logon_PopupActions_Menu_DXI0_T {
+    color: #fff !important;
+}
+.xafFooter {
+    /*background-color:#000*/
+}
+#headerTableDiv
+{
+     /*background-color:#073269;*/
+      border-bottom:solid 1px #5b8dce
+}
+#headerTable
+{
+     /*background-color:#073269;*/
+   
+}
+#headerTableDiv span.dx-vam
+{
+    /*color:#fff*/ 
+}
+.dxmLite_XafTheme .dxm-popup a.dxalink span.dx-vam{
+   color:#000 !important
+}
+.Caption{
+	color:#787878 !important;
+	font-size: 1.0em;
+}
+body input.dxeEditArea_XafTheme, body input.dxeEditArea_Office2010Blue, .dxgvControl_Office2010Blue {
+    color: #135BEC !important;
+    /*font-size: 1.1em;*/
+    font-weight: 500 !important;
+}
+
+.dxeEditArea_XafTheme.dxeDisabled_XafTheme {
+    color: #787878 !important;
+}
+.WebEditorCell, .dxeBase_XafTheme {
+    color: #135BEC !important;
+}
+
+.XafVCap-First{
+	color:#F0F0F0 !important;
+}
+.XafVCap-Second {
+    /*font-size: 22pt;*/
+    color: #fff;
+}
+
+/*#Logon_viewCaptionControl_VSL .XafVCap-Second, .XafVCap-Second {
+    color: #fff;
+}*/
+h1, h2, h3, h4, h5, h6, ul, li, span, label, a, table, td, div, body, htm, html, input, .Register, .GroupHeader, .StaticText, .TextCell, .Layout .Caption, .dxeBase_Office2003Olive, dxeBase_Office2010Blue, .GroupContent, .Item, .StaticText {
+    font-family: 'Prompt','Kanit', sans-serif !important;
+}
+
+ul, li, span, label, a, table, td, div, body, htm, html, input, .Register, .GroupHeader, .StaticText, .TextCell, .Layout .Caption, .dxeBase_Office2003Olive, dxeBase_Office2010Blue, .GroupContent, .Item, .StaticText {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600 !important;
+    color: #2d5e9c;
+}
+
+h2 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #2d5e9c;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600 !important;
+    color: #2d5e9c;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.NavigationHistoryLinks, .NavigationHistoryLinks a {
+    font-size: 12px !important;
+}
+
+.GroupHeader {
+    background: #cce4fd !important;
+    padding: 6px 0px 6px 6px !important;
+    /*margin-top: 6px !important;*/
+}
+    .GroupHeader .Label {
+        color: #0a0a0a !important;
+        padding-left: 0px;
+        font-size: 1.2em;
+    }
+.CardGroupBase {
+    border: 0px;
+}
+.dxnb-itemSelected a.dxnb-link {
+    color: white !important;
+}
+
+#FindDialog_UPPopupWindowControl .headerContent, .headerContent {
+    background-color: transparent !important;
+}
+
+.headerTable.xafAlignCenter {
+    text-align: center;
+}
+
+.HorizontalTemplateHeader, .VerticalTemplateHeader, .Header {
+    background-color:transparent !important;
+    background:none !important;
+}
+.Header {
+    background: url("../images/logo.png") repeat-y scroll left center !important;
+    font-size: 0 !important;
+    height: 50px !important;
+    margin-top: 10px !important;
+    margin-left: 20% !important;
+}
+
+#Logon_v0_6488855_MainLayoutEdit_xaf_l21_xaf_dviLogonText, .StaticText, #Logon_v0_22510872_MainLayoutEdit_xaf_l9_xaf_dviLogonImage {
+    display: none;
+}
+#Logon_UPHeader {
+    background-color:#ffffff;
+}
+.DialogContent.Content.LogonContent {
+    background: linear-gradient(to bottom, #ffffff 0%,#d9edf2 40%,#9ed5e2 100%);
+    box-shadow: rgba(0,0,0,0.5) 0 0 10px;
+    border-radius: 10px;
+    border: 0;
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+}
+/*div.Header {
+    width: auto;
+}*/
+/*div.Header table td {
+    width: 550px !important;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+}*/
+/*.Content,#Content {
+background-color:transparent !important;
+}*/
+
+.gray {
+    background-color: #073269 !important;
+    border: 0px !important;
+    padding: 4px;
+}
+
+/*.menuButtons_XafTheme a.dx {
+    color: #03357A !important;
+}*/

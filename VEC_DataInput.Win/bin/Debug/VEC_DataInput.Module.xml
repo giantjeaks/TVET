@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VEC_DataInput.Module
+</name>
+</assembly>
+<members>
+<member name="T:VEC_DataInput.Module.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:VEC_DataInput.Module.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:VEC_DataInput.Module.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:VEC_DataInput.Module.CustomLogin.CheckLogin(System.String,System.String)">
+ <summary>
+ ฟังก์ชั่นสำหรับ login ผ่าน api บนเว็บระบบ DITP
+ </summary>
+ <param name="username">Username</param>
+ <param name="password">Password</param>
+ <returns></returns>
+</member>
+<member name="M:VEC_DataInput.Module.CustomLogin.SendRequest(System.Uri,System.Byte[],System.String,System.String)">
+ <summary>
+ Call Website module
+ </summary>
+ <param name="uri"></param>
+ <param name="jsonDataBytes"></param>
+ <param name="contentType"></param>
+ <param name="method"></param>
+ <returns></returns>
+</member>
+<member name="F:VEC_DataInput.Module.Personnel._EmployeeTemp_Budget">
+ <summary>
+ '
+ </summary>
+</member>
+<member name="F:VEC_DataInput.Module.VEC_DataInputModule.components">
+ <summary> 
+ Required designer variable.
+ </summary>
+</member>
+<member name="M:VEC_DataInput.Module.VEC_DataInputModule.Dispose(System.Boolean)">
+ <summary> 
+ Clean up any resources being used.
+ </summary>
+ <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member>
+<member name="M:VEC_DataInput.Module.VEC_DataInputModule.InitializeComponent">
+ <summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member>
+</members>
+</doc>

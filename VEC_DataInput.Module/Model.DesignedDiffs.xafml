@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="VEC_DataInput" Logo="logo">
+  <ActionDesign>
+    <Actions>
+      <Action Id="Cancel" Caption="ยกเลิก" />
+      <Action Id="CancelAction" Caption="ยกเลิก" />
+      <Action Id="Delete" Caption="ลบ" />
+      <Action Id="DialogCancel" Caption="ยกเลิก" />
+      <Action Id="DialogClose" Caption="ปิด" />
+      <Action Id="DialogOK" Caption="ตกลง" />
+      <Action Id="ListViewShowObject" Caption="เปิด" />
+      <Action Id="Logoff" Caption="ออกจากระบบ" />
+      <Action Id="Logon" Caption="เข้าสู่ระบบ" />
+      <Action Id="New" Caption="เพิ่ม" />
+      <Action Id="ReportViewerDialogControllerV2_Close" Caption="ปิด" />
+      <Action Id="Save" Caption="บันทึก" />
+      <Action Id="SaveAndClose" Caption="บักทึก และ ปิด" />
+      <Action Id="SaveAndNew" Caption="บันทึกและสร้างรายการใหม่" />
+    </Actions>
+  </ActionDesign>
+  <Localization>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="VEC_DataInput.Module.EnumInfo+Quality">
+        <LocalizationItem Name="empty" Index="0" />
+        <LocalizationItem Name="excellent" Index="1" />
+        <LocalizationItem Name="very_good" Index="2" />
+        <LocalizationItem Name="good" Index="3" />
+        <LocalizationItem Name="medium" Index="4" />
+        <LocalizationItem Name="bad" Index="5" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="Group_Center" Caption="ฝ่ายข้อมูลกลาง" Index="0" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Student_ShortCourse_ListView" ObjectKey="" ViewId="Student_ShortCourse_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Group_PromoteWork" Caption="ฝ่ายส่งเสริมสมรรถนะผู้เรียนเข้าสู่มาตรฐานอาชีพ" Index="1" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="MajorToOpen_ListView" ViewId="MajorToOpen_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="ExtendSkill_ListView" ViewId="ExtendSkill_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+          <Item Id="Evaluate_Institution_ListView" ViewId="Evaluate_Institution_ListView" ObjectKey="" Index="2" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Group_PromoteResource" Caption="ฝ่ายส่งเสริมการระดมทรัพยากรและความร่วมมือ" Index="2" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="EEC_Indus4TeacherReg_ListView" ViewId="EEC_Indus4TeacherReg_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="ResourceUses_ListView" ViewId="ResourceUses_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="GetSupportResource_ListView" ViewId="GetSupportResource_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Group_PromoteGetJob" Caption="ฝ่ายจัดการศึกษาเพื่อให้สอดคล้องกับการมีงานทำ" Index="3" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="PromoteWork_ListView" ViewId="PromoteWork_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+          <Item Id="HaveTheJobExploreResult_ListView" ViewId="HaveTheJobExploreResult_ListView" ObjectKey="" Index="2" Caption="ข้อมูลภาวะการมีงานทำของผู้สำเร็จการศึกษา" IsNewNode="True" />
+          <Item Id="PromoteInnvtEnt_ListView" ViewId="PromoteInnvtEnt_ListView" ObjectKey="" Index="3" IsNewNode="True" />
+          <Item Id="ScholarshipProject_ListView" ViewId="ScholarshipProject_ListView" ObjectKey="" Index="4" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Group_Research" Caption="ฝ่ายวิจัยและพัฒนา" Index="4" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Innovation_ListView" Index="0" IsNewNode="True" />
+          <Item Id="Invention_ListView" Index="1" IsNewNode="True" />
+          <Item Id="Researches_ListView" Index="2" IsNewNode="True" />
+          <Item Id="InnovationStory_ListView" ViewId="InnovationStory_ListView" ObjectKey="" Index="4" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Group_Coordinate" Caption="ฝ่ายประสานงานและสร้างการรับรู้" Index="5" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Coordinate_ListView" ViewId="Coordinate_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="CreateAwareness_ListView" ViewId="CreateAwareness_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default" Visible="True">
+        <Items>
+          <Item Id="CreateAwareness_ListView" Removed="True" />
+          <Item Id="EEC_Indus4TeacherReg_ListView" Removed="True" />
+          <Item Id="Evaluate_Institution_ListView" Removed="True" />
+          <Item Id="ExtendSkill_ListView" Removed="True" />
+          <Item Id="HaveTheJobExploreResult_ListView" Removed="True" />
+          <Item Id="InnovationStory_ListView" Removed="True" />
+          <Item Id="Institution_ListView" Removed="True" />
+          <Item Id="MajorToOpen_ListView" Removed="True" />
+          <Item Id="mas_AwarenessChannels_ListView" ViewId="mas_AwarenessChannels_ListView" ObjectKey="" Removed="True" />
+          <Item Id="mas_AwarenessMehods_ListView" Removed="True" />
+          <Item Id="mas_degreeLevel_ListView" Removed="True" />
+          <Item Id="mas_Enterprise_ListView" Caption="ข้อมูลวิสาหกิจ" Removed="True" />
+          <Item Id="mas_geo_ListView" Removed="True" />
+          <Item Id="mas_Innovation_ListView" Caption="ข้อมูลนวัตกรรม" Removed="True" />
+          <Item Id="mas_IsNewMajor_ListView" Removed="True" />
+          <Item Id="mas_major_ListView" Removed="True" />
+          <Item Id="mas_Method_ListView" Removed="True" />
+          <Item Id="mas_minor_ListView" Removed="True" />
+          <Item Id="mas_province_ListView" Removed="True" />
+          <Item Id="mas_ResourceGroup_ListView" Removed="True" />
+          <Item Id="mas_ResourceType_ListView" Removed="True" />
+          <Item Id="mas_Skill_ListView" Removed="True" />
+          <Item Id="Mas_SpecialIndustryGroups_ListView" Removed="True" />
+          <Item Id="mas_specialIndustryTypes_ListView" Removed="True" />
+          <Item Id="mas_SubjectType_ListView" Removed="True" />
+          <Item Id="mas_Units_ListView" Removed="True" />
+          <Item Id="mas_vecCenter_ListView" Removed="True" />
+          <Item Id="mas_Year_ListView" Removed="True" />
+          <Item Id="PromoteInnvtEnt_ListView" Removed="True" />
+          <Item Id="PromoteWork_ListView" Removed="True" />
+          <Item Id="ResourceUses_ListView" Removed="True" />
+          <Item Id="ScholarshipProject_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Navigation_Setting" Caption="ข้อมูลพื้นฐาน" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="mas_Year_ListView" ViewId="mas_Year_ListView" ObjectKey="" Caption="ตัวเลือกปีการศึกษา" Index="0" IsNewNode="True" />
+          <Item Id="mas_geo_ListView" ViewId="mas_geo_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+          <Item Id="mas_vecCenter_ListView" ViewId="mas_vecCenter_ListView" ObjectKey="" Index="2" IsNewNode="True" />
+          <Item Id="mas_province_ListView" ViewId="mas_province_ListView" ObjectKey="" Index="3" IsNewNode="True" />
+          <Item Id="Institution_ListView" ViewId="Institution_ListView" ObjectKey="" Index="4" IsNewNode="True" />
+          <Item Id="mas_degreeLevel_ListView" ViewId="mas_degreeLevel_ListView" ObjectKey="" Index="5" IsNewNode="True" />
+          <Item Id="InnovationDagreeLevel_ListView" Index="6" />
+          <Item Id="mas_SubjectType_ListView" ViewId="mas_SubjectType_ListView" ObjectKey="" Index="7" IsNewNode="True" />
+          <Item Id="mas_major_ListView" ViewId="mas_major_ListView" ObjectKey="" Index="8" IsNewNode="True" />
+          <Item Id="mas_minor_ListView" ViewId="mas_minor_ListView" ObjectKey="" Index="9" IsNewNode="True" />
+          <Item Id="Mas_SpecialIndustryGroups_ListView" ViewId="Mas_SpecialIndustryGroups_ListView" ObjectKey="" Index="10" IsNewNode="True" />
+          <Item Id="mas_specialIndustryTypes_ListView" ViewId="mas_specialIndustryTypes_ListView" ObjectKey="" Index="11" IsNewNode="True" />
+          <Item Id="mas_Skill_ListView" ViewId="mas_Skill_ListView" ObjectKey="" Index="12" IsNewNode="True" />
+          <Item Id="mas_Expertise_ListView" Index="13" />
+          <Item Id="mas_ResourceGroup_ListView" ViewId="mas_ResourceGroup_ListView" ObjectKey="" Index="14" IsNewNode="True" />
+          <Item Id="mas_ResourceType_ListView" ViewId="mas_ResourceType_ListView" ObjectKey="" Index="15" IsNewNode="True" />
+          <Item Id="InnovationType_ListView" Index="16" />
+          <Item Id="ResearchType_ListView" Index="17" />
+          <Item Id="mas_Innovation_ListView" Caption="ข้อมูลนวัตกรรม" ObjectKey="" ViewId="mas_Innovation_ListView" Index="18" IsNewNode="True" />
+          <Item Id="mas_Method_ListView" ViewId="mas_Method_ListView" ObjectKey="" Index="19" IsNewNode="True" />
+          <Item Id="mas_TargetGroup_ListView" Index="20" />
+          <Item Id="mas_AwarenessChannels_ListView" ViewId="mas_AwarenessChannels_ListView" ObjectKey="" Index="21" IsNewNode="True" />
+          <Item Id="mas_AwarenessMehods_ListView" ViewId="mas_AwarenessMehods_ListView" ObjectKey="" Index="22" IsNewNode="True" />
+          <Item Id="mas_Units_ListView" ViewId="mas_Units_ListView" ObjectKey="" Index="23" IsNewNode="True" />
+          <Item Id="mas_IsNewMajor_ListView" ViewId="mas_IsNewMajor_ListView" ObjectKey="" Index="24" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="ฝ่ายประสานงานและสร้างการรับรู้" Removed="True">
+        <Items>
+          <Item Id="Coordinate_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="18.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="EEC_Indus4TeacherReg_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="EEC_Indus4TeacherReg" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="EEC_Indus4TeacherReg_col1" RelativeSize="49.933422103861517">
+                <LayoutItem Id="geoId" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="centerId" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="provinceID" RelativeSize="85.790408525754884" />
+              </LayoutGroup>
+              <LayoutGroup Id="EEC_Indus4TeacherReg_col2" RelativeSize="50.066577896138483">
+                <LayoutItem Id="InstitutionID" RelativeSize="5.6838365896980463" />
+                <LayoutItem Id="NumOfTeacherReg" RelativeSize="90.053285968028419" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Evaluate_Institution_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Evaluate_Institution" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="Evaluate_Institution_col1" RelativeSize="49.933422103861517">
+                <LayoutItem Id="geoId" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="centerId" RelativeSize="90.053285968028419" />
+              </LayoutGroup>
+              <LayoutGroup Id="Evaluate_Institution_col2" RelativeSize="50.066577896138483">
+                <LayoutItem Id="provinceID" RelativeSize="5.6838365896980463" />
+                <LayoutItem Id="InstitutionID" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="QualityLevel" RelativeSize="90.053285968028419" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ExtendSkill_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="ExtendSkill" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="ExtendSkill_col1" RelativeSize="49.868073878627968">
+                <LayoutItem Id="geoId" RelativeSize="5.2631578947368425" Index="1" />
+                <LayoutItem Id="centerId" RelativeSize="5.2631578947368425" Index="2" />
+                <LayoutItem Id="provinceID" RelativeSize="5.2631578947368425" Index="3" />
+                <LayoutItem Id="InstitutionID" RelativeSize="77.192982456140356" Index="4" />
+              </LayoutGroup>
+              <LayoutGroup Id="ExtendSkill_col2" RelativeSize="50.131926121372032">
+                <LayoutItem Id="subjectTypeId" RelativeSize="5.2631578947368425" />
+                <LayoutItem Id="majorId" RelativeSize="5.2631578947368425" />
+                <LayoutItem Id="minorId" RelativeSize="5.2631578947368425" />
+                <LayoutItem Id="ref_mas_skill" Index="4" RelativeSize="5.2631578947368425" ViewItem="ref_mas_skill" IsNewNode="True" />
+                <LayoutItem Id="NumOfStudent" RelativeSize="71.9298245614035" Index="5" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="HaveTheJobExploreResult_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="HaveTheJobExploreResult" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="HaveTheJobExploreResult_col1" RelativeSize="49.933422103861517">
+                <LayoutItem Id="EducationYear" RelativeSize="5.6838365896980463" />
+              </LayoutGroup>
+              <LayoutGroup Id="HaveTheJobExploreResult_col2" RelativeSize="50.066577896138483" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Innovation_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="33.178294573643413">
+            <LayoutGroup Id="Innovation" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="Innovation_col1" RelativeSize="49.875621890547265">
+                <LayoutItem Id="geoId" RelativeSize="13.559322033898305" />
+                <LayoutItem Id="centerId" RelativeSize="13.559322033898305" />
+                <LayoutItem Id="provinceID" RelativeSize="13.559322033898305" />
+                <LayoutItem Id="Institution" RelativeSize="41.242937853107343" />
+              </LayoutGroup>
+              <LayoutGroup Id="Innovation_col2" RelativeSize="50.124378109452735" Caption="Innovation_col2" Direction="Vertical">
+                <LayoutItem Id="InnovationDagreeLevel" ViewItem="InnovationDagreeLevel" Index="0" RelativeSize="18.07909604519774" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="AwardLevel" ViewItem="AwardLevel" Index="1" RelativeSize="13.559322033898305" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="InnovationType" ViewItem="InnovationType" Index="2" RelativeSize="13.559322033898305" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="InnovationName" ViewItem="InnovationName" Index="3" RelativeSize="18.07909604519774" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="MoneySupplied" ViewItem="MoneySupplied" Index="4" RelativeSize="36.72316384180791" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" ShowCaption="False" Caption="แหล่งที่มาของเงินทุน" Direction="Horizontal" Index="1" RelativeSize="66.821705426356587" IsNewNode="True" Removed="True" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="InnovationStory_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="InnovationStory" RelativeSize="100" Caption="รายละเอียด">
+              <LayoutGroup Id="InnovationStory_col1" RelativeSize="49.795361527967259">
+                <LayoutItem Id="geoId" RelativeSize="3.755868544600939" />
+                <LayoutItem Id="centerId" RelativeSize="3.755868544600939" />
+                <LayoutItem Id="provinceID" RelativeSize="3.755868544600939" />
+                <LayoutItem Id="InstitutionID" RelativeSize="3.755868544600939" />
+                <LayoutItem Id="degreeLevelId" RelativeSize="76.212832550860725" />
+              </LayoutGroup>
+              <LayoutGroup Id="InnovationStory_col2" RelativeSize="50.204638472032741">
+                <LayoutItem Id="majorId" RelativeSize="3.755868544600939" />
+                <LayoutItem Id="minorId" RelativeSize="3.755868544600939" />
+                <LayoutItem Id="InnovationTypeID" RelativeSize="3.755868544600939" />
+                <LayoutItem Id="NumOfInnovation" RelativeSize="3.755868544600939" />
+                <LayoutItem Id="NumOfMatchBusiness" RelativeSize="3.755868544600939" />
+                <LayoutItem Id="MoneyValue" RelativeSize="76.212832550860725" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="MajorToOpen_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="MajorToOpen" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="MajorToOpen_col1" RelativeSize="50">
+                <LayoutItem Id="EducateYear" RelativeSize="5.39629005059022" />
+                <LayoutItem Id="geoId" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="centerId" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="provinceID" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="InstitutionID" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="degreeLevelId" RelativeSize="4.0472175379426645" />
+              </LayoutGroup>
+              <LayoutGroup Id="MajorToOpen_col2" RelativeSize="50">
+                <LayoutItem Id="majorName" RelativeSize="5.39629005059022" />
+                <LayoutItem Id="minorName" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="YearToOpen" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="IndustryCategoryID" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="IndustryTypeID" RelativeSize="78.414839797639118" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="mas_major_LookupListView">
+      <Columns>
+        <ColumnInfo Id="majorId" Width="80" />
+        <ColumnInfo Id="majorName" Width="0" />
+        <ColumnInfo Id="majorYear" Width="93" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Personnel_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Personnel" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="Personnel_col1" RelativeSize="49.935483870967744">
+                <LayoutItem Id="Officer_Manager" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="Officer_Teach" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="Officer_KP" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeRegular_Teach" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeRegular_General" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeOfficer_Teach" RelativeSize="4.0472175379426645" />
+              </LayoutGroup>
+              <LayoutGroup Id="Personnel_col2" RelativeSize="50.064516129032256">
+                <LayoutItem Id="EmployeeTemp_Budget" RelativeSize="5.39629005059022" />
+                <LayoutItem Id="EmployeeTemp_Subsidy" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeTemp_BenefitMonth" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeTemp_BenefitHour" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeGeneral_Budget" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeGeneral_Subsidy" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeGeneral_BenefitMonth" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeGeneral_BenefitHour" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="SpecialTeacher" RelativeSize="66.273187183811132" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PorfomanceTesting_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="PorfomanceTesting" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="PorfomanceTesting_col1" RelativeSize="49.654377880184335">
+                <LayoutItem Id="EducationYear" Index="0" RelativeSize="5.7761732851985563" ViewItem="EducationYear" IsNewNode="True" />
+                <LayoutItem Id="geoId" Index="1" RelativeSize="4.3321299638989172" />
+                <LayoutItem Id="centerId" Index="2" RelativeSize="4.3321299638989172" />
+                <LayoutItem Id="provinceID" Index="3" RelativeSize="4.3321299638989172" />
+                <LayoutItem Id="Institution" ViewItem="Institution" Index="4" RelativeSize="81.2274368231047" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="degreeLevelId" Index="6" RelativeSize="72.563176895306853" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="PorfomanceTesting_col2" RelativeSize="50.345622119815665">
+                <LayoutItem Id="degreeLevelId" ViewItem="degreeLevelId" Index="0" RelativeSize="5.7761732851985563" IsNewNode="True" />
+                <LayoutItem Id="SubjectType" Index="1" RelativeSize="4.3321299638989172" ViewItem="SubjectType" IsNewNode="True" />
+                <LayoutItem Id="major" RelativeSize="4.3321299638989172" Index="2" />
+                <LayoutItem Id="minor" RelativeSize="4.3321299638989172" Index="3" />
+                <LayoutItem Id="TotalStudent" RelativeSize="4.3321299638989172" Index="4" />
+                <LayoutItem Id="TotalPass" RelativeSize="76.895306859205775" Index="5" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PromoteInnvtEnt_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="PromoteInnvtEnt" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="PromoteInnvtEnt_col1" RelativeSize="49.933774834437088">
+                <LayoutItem Id="geoId" RelativeSize="4.3399638336347195" />
+                <LayoutItem Id="centerId" RelativeSize="4.3399638336347195" />
+                <LayoutItem Id="provinceID" RelativeSize="4.3399638336347195" />
+                <LayoutItem Id="InstitutionID" RelativeSize="4.3399638336347195" />
+                <LayoutItem Id="degreeLevelId" RelativeSize="76.853526220614825" />
+              </LayoutGroup>
+              <LayoutGroup Id="PromoteInnvtEnt_col2" RelativeSize="50.066225165562912">
+                <LayoutItem Id="subjectTypeId" RelativeSize="5.786618444846293" />
+                <LayoutItem Id="majorId" RelativeSize="4.3399638336347195" />
+                <LayoutItem Id="minorId" RelativeSize="4.3399638336347195" />
+                <LayoutItem Id="NumOfStudent" RelativeSize="81.193490054249551" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PromoteWork_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="PromoteWork" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="PromoteWork_col1" RelativeSize="49.88558352402746">
+                <LayoutItem Id="EducationYear" ViewItem="EducationYear" Index="0" RelativeSize="5.5459272097053729" IsNewNode="True" />
+                <LayoutItem Id="geoId" RelativeSize="4.15944540727903" Index="1" />
+                <LayoutItem Id="centerId" RelativeSize="4.15944540727903" Index="2" />
+                <LayoutItem Id="provinceID" RelativeSize="4.15944540727903" Index="3" />
+                <LayoutItem Id="InstitutionID" RelativeSize="81.975736568457535" Index="4" />
+              </LayoutGroup>
+              <LayoutGroup Id="PromoteWork_col2" RelativeSize="50.11441647597254">
+                <LayoutItem Id="degreeLevelId" Index="0" RelativeSize="5.5459272097053729" ViewItem="degreeLevelId" IsNewNode="True" />
+                <LayoutItem Id="subjectTypeId" RelativeSize="4.15944540727903" Index="1" />
+                <LayoutItem Id="majorId" RelativeSize="4.15944540727903" Index="2" />
+                <LayoutItem Id="minorId" RelativeSize="4.15944540727903" Index="3" />
+                <LayoutItem Id="NumOfStudent" RelativeSize="81.975736568457535" Index="4" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Researches_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="19.685039370078741">
+            <LayoutGroup Id="Researches" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="Researches_col1" RelativeSize="50">
+                <LayoutItem Id="Institution" RelativeSize="27.272727272727273" />
+              </LayoutGroup>
+              <LayoutGroup Id="Researches_col2" RelativeSize="50">
+                <LayoutItem Id="AwardLevel" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="ReseacrhType" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="ResearchName" RelativeSize="36.363636363636367" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="80.314960629921259">
+            <LayoutItem Id="MoneySupplied" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ResourceUses_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="ResourceUses" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="ResourceUses_col1" RelativeSize="50">
+                <LayoutItem Id="EducateYear" RelativeSize="5.39629005059022" />
+                <LayoutItem Id="geoId" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="centerId" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="provinceID" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="InstitutionID" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="degreeLevelId" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="subjectTypeId" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="majorId" RelativeSize="70.320404721753789" />
+              </LayoutGroup>
+              <LayoutGroup Id="ResourceUses_col2" RelativeSize="50">
+                <LayoutItem Id="minorId" RelativeSize="5.39629005059022" />
+                <LayoutItem Id="RessourceGroup_Oid" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="DetailsResource" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="OrganizationType" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="QuantityUses" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="Unit" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="QuantityValue" RelativeSize="74.367622259696461" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Student_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Student" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="Student_col1" RelativeSize="49.934980494148242">
+                <LayoutItem Id="SubjtectTypeName" RelativeSize="73.144876325088333" />
+              </LayoutGroup>
+              <LayoutGroup Id="Student_col2" RelativeSize="50.065019505851758" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Student_ShortCourse_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Student_ShortCourse" Caption="รายละเอียด" RelativeSize="100">
+              <LayoutGroup Id="Student_ShortCourse_col1" RelativeSize="49.934980494148242">
+                <LayoutItem Id="SubjectID" RelativeSize="4.2402826855123674" />
+              </LayoutGroup>
+              <LayoutGroup Id="Student_ShortCourse_col2" RelativeSize="50.065019505851758" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

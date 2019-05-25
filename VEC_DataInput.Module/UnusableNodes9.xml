@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Navigation_Setting">
+        <Items Id="Items">
+          <Item Id="mas_ResType_ListView" ViewId="mas_ResType_ListView" />
+          <Item Id="mas_Res_ListView" ViewId="mas_Res_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views Id="Views">
+    <DetailView Id="HaveTheJobExploreResult_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="HaveTheJobExploreResult">
+              <LayoutGroup Id="HaveTheJobExploreResult_col1">
+                <LayoutItem Id="geoId" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="centerId" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="provinceID" RelativeSize="4.2628774422735347" />
+              </LayoutGroup>
+              <LayoutGroup Id="HaveTheJobExploreResult_col2">
+                <LayoutItem Id="InstitutionID" RelativeSize="5.6838365896980463" />
+                <LayoutItem Id="degreeLevelId" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="subjectTypeId" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="majorId" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="minorId" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="StudentJobStatus" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="NumOfStudent" RelativeSize="4.2628774422735347" />
+                <LayoutItem Id="PercentOfStudent" RelativeSize="68.738898756660745" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Personnel_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Personnel">
+              <LayoutGroup Id="Personnel_col1">
+                <LayoutItem Id="IntitutionName" RelativeSize="4.0472175379426645" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Student_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Student">
+              <LayoutGroup Id="Student_col1">
+                <LayoutItem Id="IntitutionName" RelativeSize="4.2402826855123674" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

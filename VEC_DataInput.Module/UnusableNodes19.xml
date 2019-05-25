@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="PorfomanceTesting_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PorfomanceTesting">
+              <LayoutGroup Id="PorfomanceTesting_col1">
+                <LayoutItem Id="SubjectType" RelativeSize="76.895306859205775" Index="5" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="PorfomanceTesting_col2">
+                <LayoutItem Id="EducationYear" RelativeSize="5.786618444846293" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ResourceUses_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="ResourceUses">
+              <LayoutGroup Id="ResourceUses_col1">
+                <LayoutItem Id="minorId" RelativeSize="5.39629005059022" Index="0" Removed="True" />
+                <LayoutItem Id="majorId" RelativeSize="5.39629005059022" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="ResourceUses_col2">
+                <LayoutItem Id="degreeLevelId" Index="0" RelativeSize="5.39629005059022" />
+                <LayoutItem Id="subjectTypeId" RelativeSize="4.0472175379426645" Index="1" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ExtendSkill_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="ExtendSkill">
+              <LayoutGroup Id="ExtendSkill_col1">
+                <LayoutItem Id="ref_mas_skill" RelativeSize="5.6838365896980463" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="ExtendSkill_col2">
+                <LayoutItem Id="degreeLevelId" RelativeSize="7.0175438596491224" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Navigation_Setting">
+        <Items Id="Items">
+          <Item Id="mas_ResType_ListView" ViewId="mas_ResType_ListView" />
+          <Item Id="mas_Res_ListView" ViewId="mas_Res_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

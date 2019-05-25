@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="MajorToOpen_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="MajorToOpen">
+              <LayoutGroup Id="MajorToOpen_col1">
+                <LayoutItem Id="subjectTypeId" RelativeSize="74.367622259696461" />
+              </LayoutGroup>
+              <LayoutGroup Id="MajorToOpen_col2">
+                <LayoutItem Id="IsNewMajorStatus" RelativeSize="4.0472175379426645" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="InnovationStory_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="InnovationStory">
+              <LayoutGroup Id="InnovationStory_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="5.0078247261345856" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Personnel_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Personnel">
+              <LayoutGroup Id="Personnel_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="5.39629005059022" />
+                <LayoutItem Id="ProvinceName" RelativeSize="4.0472175379426645" />
+                <LayoutItem Id="EmployeeOfficer_General" RelativeSize="62.225969645868467" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PorfomanceTesting_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PorfomanceTesting">
+              <LayoutGroup Id="PorfomanceTesting_col1">
+                <LayoutItem Id="EducationYear" ViewItem="EducationYear" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PromoteWork_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="PromoteWork">
+              <LayoutGroup Id="PromoteWork_col1">
+                <LayoutItem Id="EducationYear" ViewItem="EducationYear" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Student_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Student">
+              <LayoutGroup Id="Student_col1">
+                <LayoutItem Id="ProvinceName" RelativeSize="4.2402826855123674" />
+                <LayoutItem Id="VecCenterName" RelativeSize="4.2402826855123674" />
+                <LayoutItem Id="GeoName" RelativeSize="4.2402826855123674" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Student_ShortCourse_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Student_ShortCourse">
+              <LayoutGroup Id="Student_ShortCourse_col1">
+                <LayoutItem Id="SubjectName" RelativeSize="4.2402826855123674" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Navigation_Setting">
+        <Items Id="Items">
+          <Item Id="mas_ResType_ListView" ViewId="mas_ResType_ListView" />
+          <Item Id="mas_Res_ListView" ViewId="mas_Res_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

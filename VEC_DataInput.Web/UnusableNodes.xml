@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Group_Center">
+        <Items Id="Items">
+          <Item Id="@71fa85eb-82a9-4308-b09b-aad1a6740f13" Caption="รายงาน..." ViewId="mas_geo_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Group_Coordinate">
+        <Items Id="Items">
+          <Item Id="@5fb8b2c8-00fb-4288-87bb-a4cdba7e30f1" Caption="รายงาน..." ViewId="mas_geo_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

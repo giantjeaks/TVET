@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Navigation_Setting">
+        <Items Id="Items">
+          <Item Id="mas_ResType_ListView" ViewId="mas_ResType_ListView" />
+          <Item Id="mas_Res_ListView" ViewId="mas_Res_ListView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views Id="Views">
+    <DetailView Id="ResourceUses_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="ResourceUses">
+              <LayoutGroup Id="ResourceUses_col2">
+                <LayoutItem Id="QauntityUnit" RelativeSize="81.52753108348135" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Student_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Student">
+              <LayoutGroup Id="Student_col1">
+                <LayoutItem Id="EducationYear" RelativeSize="5.6537102473498235" />
+              </LayoutGroup>
+              <LayoutGroup Id="Student_col2">
+                <LayoutItem Id="MajorName" RelativeSize="5.6537102473498235" />
+                <LayoutItem Id="MinorName" RelativeSize="4.2402826855123674" />
+                <LayoutItem Id="CourseType" RelativeSize="4.2402826855123674" />
+                <LayoutItem Id="DeegreLevel" RelativeSize="4.2402826855123674" />
+                <LayoutItem Id="Level" RelativeSize="4.2402826855123674" />
+                <LayoutItem Id="StudentTotal" RelativeSize="77.3851590106007" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

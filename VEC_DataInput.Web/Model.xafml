@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="Edit" Caption="แก้ไข" />
+      <Action Id="MyDetails" Caption="ข้อมูลผู้ใช้" />
+    </Actions>
+  </ActionDesign>
+  <Localization>
+    <LocalizationGroup Name="Captions">
+      <LocalizationItem Name="MyAccount" Value="บัญชีผู้ใช้ของฉัน" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Confirmations">
+      <LocalizationItem Name="Cancel" Value=" การเปลี่ยนแปลงยังไม่ถูกบันทึก แน่ใจหรือไม่ว่าต้องการดำเนินการต่อ ?" />
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="MyDetails" Caption="ข้อมูลของฉัน" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="18.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="18.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="User_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="22.992125984251967">
+            <LayoutGroup Id="User" Caption="ข้อมูลผู้ใช้" RelativeSize="100">
+              <LayoutGroup Id="User_col1" RelativeSize="49.914529914529915">
+                <LayoutItem Id="UserName" RelativeSize="29.357798165137616" />
+                <LayoutItem Id="IsActive" RelativeSize="19.26605504587156" />
+                <LayoutItem Id="geoID" RelativeSize="22.01834862385321" />
+                <LayoutItem Id="vecCenterID" RelativeSize="29.357798165137616" />
+              </LayoutGroup>
+              <LayoutGroup Id="User_col2" RelativeSize="50.085470085470085">
+                <LayoutItem Id="provinceID" RelativeSize="29.357798165137616" />
+                <LayoutItem Id="InstitutionID" RelativeSize="22.01834862385321" />
+                <LayoutItem Id="CreateDate" RelativeSize="22.01834862385321" />
+                <LayoutItem Id="ChangePasswordOnFirstLogon" RelativeSize="26.605504587155963" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="38.425196850393704">
+            <LayoutItem Id="DisplayName" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="Roles_Group" Direction="Vertical" RelativeSize="38.582677165354333">
+            <LayoutItem Id="Roles" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
